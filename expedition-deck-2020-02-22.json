@@ -1,0 +1,132 @@
+{
+  "IsActive": true,
+  "State": "Picking",
+  "Record": ["win"],
+  "DraftPicks": [
+    {
+      "IsSwap": false,
+      "Picks": ["01NX006", "01NX052", "01NX011"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX020", "01NX040", "01NX012"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX033", "01NX032"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX017", "01NX041"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX047", "01NX033"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX011", "01NX024"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX037", "01NX033"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX041", "01NX016"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX047", "01NX030"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX011", "01NX032"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX036", "01NX045"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX016", "01NX026"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX011", "01NX036"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": false,
+      "Picks": ["01NX016", "01NX032"],
+      "SwappedOut": null,
+      "SwappedIn": null
+    },
+    {
+      "IsSwap": true,
+      "Picks": null,
+      "SwappedOut": ["01NX052"],
+      "SwappedIn": ["01NX047"]
+    }
+  ],
+  "Deck": [
+    "01NX006",
+    "01NX011",
+    "01NX020",
+    "01NX040",
+    "01NX012",
+    "01NX033",
+    "01NX032",
+    "01NX017",
+    "01NX041",
+    "01NX047",
+    "01NX033",
+    "01NX011",
+    "01NX024",
+    "01NX037",
+    "01NX033",
+    "01NX041",
+    "01NX016",
+    "01NX047",
+    "01NX030",
+    "01NX011",
+    "01NX032",
+    "01NX036",
+    "01NX045",
+    "01NX016",
+    "01NX026",
+    "01NX011",
+    "01NX036",
+    "01NX016",
+    "01NX032",
+    "01NX047"
+  ],
+  "Games": 1,
+  "Wins": 1,
+  "Losses": 0
+}

@@ -1,0 +1,6 @@
+
+GET http://localhost:21337/positional-rectangles
+
+GET http://localhost:21337/expeditions-state
+
+GET http://localhost:21337/static-decklist
