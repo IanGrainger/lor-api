@@ -89,7 +89,7 @@ function checkRectanglesEveryInterval(intervalMS) {
 let currentExpeditionsStateStr = getPreviousRectanglesStrFromFile(
   /expedition-state-.*/
 );
-console.log("got current expedition state", currentExpeditionsStateStr);
+
 function checkExpeditionEveryInterval(intervalMS) {
   setTimeout(async () => {
     const expeditionState = await apiFetcher.getExpeditionState();

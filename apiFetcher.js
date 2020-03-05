@@ -43,8 +43,10 @@ const getCardsWithLargestArea = rects => {
     .sort((a, b) => a[0] * 1 - b[0] * 1);
 
   // assume we have 2 groups now!
-  if (cardCountsByArea.length != 2)
-    throw "ARGH, not 2 different groups of cards!?";
+  if (cardCountsByArea.length > 2) {
+    console.log("got >2 cardCountsByArea", cardCountsByArea);
+    throw "ARGH, not >2 different groups of cards!?";
+  }
 
   // the largest card area is now the last item in the array
   const largestCardArea = cardCountsByArea[cardCountsByArea.length - 1];
