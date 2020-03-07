@@ -1,1 +1,200 @@
-[{"CardID":-1,"CardCode":"01NX012","TopLeftX":17,"TopLeftY":1275,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX040","TopLeftX":17,"TopLeftY":1200,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX030","TopLeftX":17,"TopLeftY":1125,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX017","TopLeftX":17,"TopLeftY":1050,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX047","TopLeftX":17,"TopLeftY":975,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX016","TopLeftX":17,"TopLeftY":900,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX020","TopLeftX":17,"TopLeftY":825,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX026","TopLeftX":17,"TopLeftY":751,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX011","TopLeftX":17,"TopLeftY":676,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX032","TopLeftX":17,"TopLeftY":601,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX033","TopLeftX":17,"TopLeftY":526,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX024","TopLeftX":17,"TopLeftY":451,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX041","TopLeftX":17,"TopLeftY":376,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX006","TopLeftX":17,"TopLeftY":301,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX036","TopLeftX":17,"TopLeftY":227,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX045","TopLeftX":17,"TopLeftY":152,"Width":374,"Height":74,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX026","TopLeftX":759,"TopLeftY":1105,"Width":379,"Height":191,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX011","TopLeftX":1209,"TopLeftY":1105,"Width":379,"Height":191,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX033","TopLeftX":759,"TopLeftY":890,"Width":379,"Height":191,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX036","TopLeftX":1209,"TopLeftY":890,"Width":379,"Height":191,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX032","TopLeftX":759,"TopLeftY":675,"Width":379,"Height":191,"LocalPlayer":true},{"CardID":-1,"CardCode":"01NX031","TopLeftX":1209,"TopLeftY":675,"Width":379,"Height":191,"LocalPlayer":true}]
+[
+  {
+    "CardID": -1,
+    "CardCode": "01NX012",
+    "TopLeftX": 17,
+    "TopLeftY": 1275,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX040",
+    "TopLeftX": 17,
+    "TopLeftY": 1200,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX030",
+    "TopLeftX": 17,
+    "TopLeftY": 1125,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX017",
+    "TopLeftX": 17,
+    "TopLeftY": 1050,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX047",
+    "TopLeftX": 17,
+    "TopLeftY": 975,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX016",
+    "TopLeftX": 17,
+    "TopLeftY": 900,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX020",
+    "TopLeftX": 17,
+    "TopLeftY": 825,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX026",
+    "TopLeftX": 17,
+    "TopLeftY": 751,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX011",
+    "TopLeftX": 17,
+    "TopLeftY": 676,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX032",
+    "TopLeftX": 17,
+    "TopLeftY": 601,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX033",
+    "TopLeftX": 17,
+    "TopLeftY": 526,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX024",
+    "TopLeftX": 17,
+    "TopLeftY": 451,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX041",
+    "TopLeftX": 17,
+    "TopLeftY": 376,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX006",
+    "TopLeftX": 17,
+    "TopLeftY": 301,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX036",
+    "TopLeftX": 17,
+    "TopLeftY": 227,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX045",
+    "TopLeftX": 17,
+    "TopLeftY": 152,
+    "Width": 374,
+    "Height": 74,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX026",
+    "TopLeftX": 759,
+    "TopLeftY": 1105,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX011",
+    "TopLeftX": 1209,
+    "TopLeftY": 1105,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX033",
+    "TopLeftX": 759,
+    "TopLeftY": 890,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX036",
+    "TopLeftX": 1209,
+    "TopLeftY": 890,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX032",
+    "TopLeftX": 759,
+    "TopLeftY": 675,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  },
+  {
+    "CardID": -1,
+    "CardCode": "01NX031",
+    "TopLeftX": 1209,
+    "TopLeftY": 675,
+    "Width": 379,
+    "Height": 191,
+    "LocalPlayer": true
+  }
+]

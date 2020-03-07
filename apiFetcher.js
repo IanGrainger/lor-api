@@ -24,36 +24,6 @@ const getCardPositions = async () => {
   return resultJson.Rectangles;
 };
 
-const getCardsWithLargestArea = rects => {
-  const cardsWithAreas = rects.map(r => {
-    return { ...r, Area: r.Height * r.Width };
-  });
-  const cardsByArea = cardsWithAreas.reduce(
-    (accumulator, value) => (
-      accumulator[value.Area]
-        ? accumulator[value.Area].push(value)
-        : (accumulator[value.Area] = [value]),
-      accumulator
-    ),
-    {}
-  );
-
-  const cardCountsByArea = Object.keys(cardsByArea)
-    .map(cardGroup => [cardGroup, cardsByArea[cardGroup].length])
-    .sort((a, b) => a[0] * 1 - b[0] * 1);
-
-  // assume we have 2 groups now!
-  if (cardCountsByArea.length > 2) {
-    console.log("got >2 cardCountsByArea", cardCountsByArea);
-    throw "ARGH, not >2 different groups of cards!?";
-  }
-
-  // the largest card area is now the last item in the array
-  const largestCardArea = cardCountsByArea[cardCountsByArea.length - 1];
-
-  return cardsWithAreas.filter(c => c.Area == largestCardArea[0]);
-};
-
 const getCardsWithData = (cardPositions, cardsByCode) => {
   return cardPositions.map(p => ({ ...p, ...cardsByCode[p.CardCode] }));
 };
@@ -76,9 +46,7 @@ const getExpeditionState = async logLevel => {
   const resultJson = await result.json();
   return resultJson;
 };
-//main();
 
 exports.getCardPositions = getCardPositions;
-exports.getCardsWithLargestArea = getCardsWithLargestArea;
 exports.getCardDataForRectangles = getCardDataForRectangles;
 exports.getExpeditionState = getExpeditionState;

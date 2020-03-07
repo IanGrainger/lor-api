@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const cardRecorder = require("./cardRecorder");
 const apiFetcher = require("./apiFetcher");
+const rectanglesLib = require("./rectangles-lib/rectangles-lib");
 
 let logLevel = 0;
 
@@ -65,13 +66,10 @@ setupKeyboardRead();
 
 function cardsForDisplay(previousContentStr) {
   const content = JSON.parse(previousContentStr);
-  const largeCards = apiFetcher.getCardsWithLargestArea(content);
-  const cardsWithData = apiFetcher.getCardDataForRectangles(largeCards);
-  return cardsWithData.map(c => ({
-    n: c.name,
-    tier: c.tier,
-    cost: c.cost
-  }));
+  const cardsWithData = apiFetcher.getCardDataForRectangles(content);
+  const inSets = rectanglesLib.getCardsInSets(cardsWithData);
+  const cardDisplay = inSets.map(g => apiFetcher.getCardDataForRectangles(g));
+  console.table(cardDisplay.map(g => g.map(c => [c.name, c.tier])));
 }
 
 function checkRectanglesEveryInterval(intervalMS) {
@@ -96,7 +94,9 @@ function checkExpeditionEveryInterval(intervalMS) {
     // todo: deep compare? or just get strings from the apiFetcher!?
     const expeditionStateStr = JSON.stringify(expeditionState);
     if (expeditionStateStr != currentExpeditionsStateStr) {
-      if (logLevel > 0) console.log(`got new expedition state`);
+      // todo: run check picks rectangles 1x?!
+      // if (logLevel > 0)
+      console.log(`got new expedition state`);
       currentExpeditionsStateStr = expeditionStateStr;
       cardRecorder.writeFileWithDate(
         "expedition-state",
@@ -109,6 +109,19 @@ function checkExpeditionEveryInterval(intervalMS) {
     checkExpeditionEveryInterval(intervalMS);
   }, intervalMS);
 }
+
+// let currentPicksStr = getPreviousRectanglesStrFromFile(/picks-.*\.json^/);
+// updatePicksIfChangedEveryInterval(1000);
+// function updatePicksIfChangedEveryInterval(intervalMS) {
+//   setTimeout(async () => {
+//     const cardRects = await apiFetcher.getCardPositions();
+//     const cardsBySize = rectanglesLib.getCardsWithLargestArea(cardRects);
+//     const cardInfo = apiFetcher.getCardDataForRectangles(cardsBySize);
+//     const inSets = rectanglesLib.getCardsInSets(cardRects);
+//     console.log("got sets", inSets);
+//     updatePicksIfChangedEveryInterval(intervalMS);
+//   }, intervalMS);
+// }
 
 // pollForPositions(previousContent);
 

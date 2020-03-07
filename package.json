@@ -6,12 +6,16 @@
   "scripts": {
     "start": "node index.js",
     "dev": "npx nodemon -I index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0"
   }
 }
