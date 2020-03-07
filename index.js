@@ -68,8 +68,11 @@ function cardsForDisplay(previousContentStr) {
   const content = JSON.parse(previousContentStr);
   const cardsWithData = apiFetcher.getCardDataForRectangles(content);
   const inSets = rectanglesLib.getCardsInSets(cardsWithData);
-  const cardDisplay = inSets.map(g => apiFetcher.getCardDataForRectangles(g));
-  console.table(cardDisplay.map(g => g.map(c => [c.name, c.tier])));
+  const withTotals = inSets.map(g => [
+    ...g,
+    { name: "Total", tier: g.reduce((col, cur) => (col += cur.tier), 0) }
+  ]);
+  console.table(withTotals.map(g => g.map(c => [c.name, c.tier])));
 }
 
 function checkRectanglesEveryInterval(intervalMS) {
